@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "TETR.IO Visible Chat",
+  "version": "1.0.0",
+  "description": "Forces chat to be visible in tetr.io",
+
+  "content_scripts": [
+    {
+      "matches": ["*://tetr.io/"],
+      "css": ["visible.css"]
+    }
+  ]
+}
